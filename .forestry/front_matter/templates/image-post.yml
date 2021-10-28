@@ -1,4 +1,31 @@
 ---
 label: Image-post
 hide_body: true
-fields: []
+fields:
+- name: Title
+  type: text
+  config:
+    required: false
+  label: title
+- name: Date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: Text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: text
+- name: Image
+  type: image_gallery
+  config: {}
+  label: image
