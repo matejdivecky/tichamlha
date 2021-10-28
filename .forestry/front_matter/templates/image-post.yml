@@ -29,3 +29,5 @@ fields:
   type: image_gallery
   config: {}
   label: image
+pages:
+- content/posts/test1.md
